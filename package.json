@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
     "@prisma/client": "^5.17.0",
     "framer-motion": "^11.3.21",
     "jsonwebtoken": "^9.0.2",

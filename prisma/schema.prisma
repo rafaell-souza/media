@@ -13,7 +13,7 @@ model User {
   first_name String   @db.VarChar(50)
   last_name  String   @db.VarChar(50)
   email      String   @unique @db.VarChar(50)
-  password   String   @db.VarChar(50)
+  password   String   @db.VarChar(70)
   profile    Profile?
 }
 
